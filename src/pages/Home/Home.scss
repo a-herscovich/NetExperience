@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.home {
+  background-color: #f0f2f5;
+}
+
+.twoPanels {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.taglineSection {
+  justify-content: space-between;
+  padding: 80px 30px;
+  height: 80vh;
+  background: rgb(240, 242, 245);
+  background: radial-gradient(
+    circle,
+    rgba(137, 190, 147, 1) 0%,
+    rgba(211, 227, 215, 1) 45%,
+    rgba(240, 242, 245, 1) 100%
+  );
+  // background: rgb(108,95,206);
+  // background: radial-gradient(circle, rgba(108,95,206,1) 0%, rgba(148,143,185,1) 35%, rgba(240,242,245,1) 100%);
+}
+
+.taglineAndCTA {
+  padding-left: 30px;
+  width: 50%;
+}
+
+.openWifiButton {
+  display: inline-flex;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 125px !important;
+  padding: 8px 12px;
+  width: fit-content;
+
+  .openWifiIcon {
+    opacity: 0;
+    width: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #f0f2f5;
+    width: 142px !important;
+    transition: width 0.25s, background-color 0.5s;
+
+    .openWifiIcon {
+      width: 16px;
+      opacity: 1;
+      padding-left: 10px;
+      transition: width 0.5s, opacity 0.5s;
+      transition-delay: 0.5s;
+      animation: 0.5s 0.5s 2 slideIcon;
+    }
+  }
+}
+
+@keyframes slideIcon {
+  from {
+    padding-left: 5px;
+  }
+  to {
+    padding-left: 10px;
+  }
+}
+
+.tagline {
+  padding: 15px 0px;
+  font-size: 40px;
+}
+
+.supportText {
+  line-height: 1.8;
+  padding-bottom: 15px;
+}
+
+.customerSection {
+  background-color: #f0f2f5;
+  padding-left: 30px;
+  color: #242526;
+}
+
+.openWifiSection {
+  height: 100vh;
+  // background: #e9ecef;
+  // background-color: #c7cfd6;
+  background: rgb(199,207,214);
+background: linear-gradient(180deg, rgba(199,207,214,1) 0%, rgba(233,236,239,1) 5%);
+  display: flex;
+  flex-flow: column nowrap;
+  // background: linear-gradient(180deg, rgba(240,242,245,1) 0%, rgba(191,181,227,1) 40%, rgba(161,145,194,1) 100%);
+  .openWifiSectionHeader {
+    margin: 40px 80px;
+    align-items: flex-start;
+  }
+
+  .openWifiTestimonialCarousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    column-gap: 15px;
+  }
+
+  svg {
+    height: 30px;
+    width: 30px;
+    color: #242526 !important;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.progressBar {
+  background: linear-gradient(to right, #b9b9d2 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  animation: 10s linear infinite progressFill;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 400px;
+  height: 10px;
+  margin: 10px auto;
+}
+
+@keyframes progressFill {
+  from {
+    background-position: right bottom;
+  } to {
+    background-position: left bottom;
+  }
+}

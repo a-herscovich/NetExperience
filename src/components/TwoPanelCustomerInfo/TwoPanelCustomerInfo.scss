@@ -1,0 +1,44 @@
+.twoPanels {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  color: #242526;
+  column-gap: 40px;
+}
+
+.introText {
+  max-width: 50%;
+  line-height: 1.5;
+  margin: 0 20px;
+}
+
+.customerIntro {
+  padding: 30px;
+  justify-content: space-evenly;
+  color: #242526;
+}
+
+.customerSectionImage {
+  width: 50%;
+}
+
+.customerCTA {
+  display: inline-flex;
+  border: 1px solid #214332;
+  background-color: #214332;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 12px;
+  width: fit-content;
+}
+
+.learnMoreCTA {
+  color: #008037;  
+  font-weight: 500;
+  transition: color 0.5s;
+  &:hover {
+    cursor: pointer;
+    color: #150080;
+    transition: color 0.5s;
+  }
+}

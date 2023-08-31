@@ -1,0 +1,83 @@
+.slideshow {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.slideshowImage {
+  width: 200px;
+  position: relative;
+}
+
+.firstRow {
+  height: 2922px;
+  animation: slideshow1 30s linear infinite forwards;
+//   animation-play-state: running;
+}
+
+.secondRow {
+  height: 2922px;
+  animation: slideshow2 25s linear infinite forwards;
+//   animation-play-state: running;
+}
+
+.imageContainer,
+.productImageContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+
+  &:hover {
+    .imageOverlay {
+      opacity: 1;
+    }
+    .text {
+      opacity: 1;
+    }
+  }
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(36, 37, 38, 0.7);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@keyframes slideshow1 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes slideshow2 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}

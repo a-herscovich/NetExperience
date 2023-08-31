@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;1,300&display=swap");
+
+.openWifiTestimonial {
+  // background: rgb(240,242,245);
+  // background: linear-gradient(315deg, rgba(240,242,245,1) 0%, rgba(191,181,227,1) 48%, rgba(161,145,194,1) 100%);
+  background: rgb(124, 163, 218);
+  background: linear-gradient(
+    315deg,
+    rgba(124, 163, 218, 1) 0%,
+    rgba(185, 185, 210, 1) 48%,
+    rgba(161, 145, 194, 1) 100%
+  );
+  border-radius: 15px;
+  width: 80%;
+  padding: 50px 40px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+//   transition: transform 0.5s ease-in-out;
+    // transition: translateX(-100px) 0.5s ease-in-out;
+}
+
+.openWifiTestimonial.active {
+//   opacity: 1;
+}
+
+.image {
+  width: 168px;
+  height: 224px;
+  margin-left: 40px;
+}
+
+.openWifiText {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  color: #242526;
+}
+
+.quote {
+  font-family: "Figtree", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.author {
+  line-height: 0.4;
+}

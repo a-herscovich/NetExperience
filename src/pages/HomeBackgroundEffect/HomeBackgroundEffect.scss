@@ -1,0 +1,38 @@
+.HomePage {
+  color: #000;
+  background-color: #f4f4f4;
+  transition: background-color 1s ease;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  outline: 10px solid hotpink;
+}
+
+.color-dark {
+    background-color: #18191a;
+}
+
+.color-medium {
+    background-color: #242526;
+}
+
+.color-light {
+    background-color: #353d48;
+}
+// .color-violet {
+//   background-color: #7a4eab;
+// }
+// .color-indigo {
+//   background-color: #4332cf;
+// }
+// .color-blue {
+//   background-color: #2f8fed;
+// }
+// .color-green {
+//   background-color: #4dcf42;
+// }

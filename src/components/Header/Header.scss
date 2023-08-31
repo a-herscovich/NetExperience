@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  display: inline-flex;
+  //   background-color: #242526;
+  background-color: transparent;
+  padding: 20px 30px;
+  z-index: 100;
+}
+
+.active {
+    background: rgb(240,242,245);
+    background: linear-gradient(180deg, rgba(240,242,245,1) 0%, rgba(240,242,245,1) 70%, rgba(240,242,245,0) 100%);
+}
+
+.logo {
+  img {
+    height: 32px;
+  }
+}
