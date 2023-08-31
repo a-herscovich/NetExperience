@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;1,300&display=swap");
 
 .home {
   background-color: #f0f2f5;
@@ -85,18 +86,29 @@
   color: #242526;
 }
 
+.customerSegmentHelperText {
+  padding-left: 30px;
+}
+
 .openWifiSection {
   height: 100vh;
-  // background: #e9ecef;
-  // background-color: #c7cfd6;
-  background: rgb(199,207,214);
-background: linear-gradient(180deg, rgba(199,207,214,1) 0%, rgba(233,236,239,1) 5%);
+  background: rgb(199, 207, 214);
+  background: linear-gradient(
+    180deg,
+    rgba(199, 207, 214, 1) 0%,
+    rgba(233, 236, 239, 1) 5%
+  );
   display: flex;
   flex-flow: column nowrap;
-  // background: linear-gradient(180deg, rgba(240,242,245,1) 0%, rgba(191,181,227,1) 40%, rgba(161,145,194,1) 100%);
   .openWifiSectionHeader {
     margin: 40px 80px;
     align-items: flex-start;
+    p {
+      font-family: "Figtree", sans-serif;
+    }
+    h1 {
+      margin: 0;
+    }
   }
 
   .openWifiTestimonialCarousel {
@@ -109,7 +121,10 @@ background: linear-gradient(180deg, rgba(199,207,214,1) 0%, rgba(233,236,239,1) 
     column-gap: 15px;
   }
 
-  svg {
+  .bi-arrow-left-circle,
+  .bi-arrow-left-circle-fill,
+  .bi-arrow-right-circle,
+  .bi-arrow-right-circle-fill {
     height: 30px;
     width: 30px;
     color: #242526 !important;
@@ -134,7 +149,16 @@ background: linear-gradient(180deg, rgba(199,207,214,1) 0%, rgba(233,236,239,1) 
 @keyframes progressFill {
   from {
     background-position: right bottom;
-  } to {
+  }
+  to {
     background-position: left bottom;
   }
+}
+
+.benefits {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 40px;
+  margin-left: 35%;
+  row-gap: 40px;
 }

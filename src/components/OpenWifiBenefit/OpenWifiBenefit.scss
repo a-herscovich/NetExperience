@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;1,300&display=swap");
+
+.openWifiBenefit {
+  font-family: "Figtree", sans-serif;
+  font-weight: 200;
+
+  svg {
+    color: #008037 !important;
+    height: 24px;
+    width: 24px;
+  }
+
+  p {
+    color: #242526;
+  }
+
+  .benefitTitle {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
