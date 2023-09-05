@@ -4,6 +4,7 @@ import {
 } from "react-router-dom";
 import "./App.scss";
 import { Layout, Home, MDUPage, HospitalityPage, Error404 } from "./pages";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (

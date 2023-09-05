@@ -33,21 +33,26 @@
 
 .openWifiButton {
   display: inline-flex;
+  align-items: center;
   border: 1px solid black;
   border-radius: 25px;
-  width: 125px !important;
+  width: 152px !important;
   padding: 8px 12px;
   width: fit-content;
 
   .openWifiIcon {
     opacity: 0;
     width: 0;
+
+    span {
+      height: 24px;
+    }
   }
 
   &:hover {
     cursor: pointer;
     background-color: #f0f2f5;
-    width: 142px !important;
+    width: 169px !important;
     transition: width 0.25s, background-color 0.5s;
 
     .openWifiIcon {
@@ -88,6 +93,7 @@
 
 .customerSegmentHelperText {
   padding-left: 30px;
+  margin-bottom: 30px;
 }
 
 .openWifiSection {
@@ -96,7 +102,7 @@
   background: linear-gradient(
     180deg,
     rgba(199, 207, 214, 1) 0%,
-    rgba(233, 236, 239, 1) 5%
+    rgba(233, 236, 239, 1) 75%
   );
   display: flex;
   flex-flow: column nowrap;
@@ -117,6 +123,6 @@
   flex-flow: column nowrap;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 35%;
+  margin-left: 30%;
   row-gap: 40px;
 }

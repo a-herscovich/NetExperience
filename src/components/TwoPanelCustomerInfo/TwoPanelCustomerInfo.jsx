@@ -1,19 +1,13 @@
 import "./TwoPanelCustomerInfo.scss";
-const TwoPanelCustomerInfo = ({ title, description, image, reverse }) => {
+const TwoPanelCustomerInfo = ({ title, description, image, reverse, cta }) => {
   return reverse ? (
     <div className="twoPanels customerIntro">
       <img className="customerSectionImage" src={image} alt={title} />
       <div className="introText">
         <h1>{title}</h1>
         <p>{description}</p>
-        {/* <div
-          className="customerCTA"
-          onClick={() => console.log("todo - redirect")}
-        >
-          Learn more
-        </div> */}
-        <div className="learnMoreCTA">
-          Learn about xyz {'\u2192'}
+        <div className="learnMoreCTA" onClick={() => console.log('todo - redirect')}>
+          {cta} {'\u2192'}
         </div>
       </div>
     </div>
@@ -22,14 +16,8 @@ const TwoPanelCustomerInfo = ({ title, description, image, reverse }) => {
       <div className="introText">
         <h1>{title}</h1>
         <p>{description}</p>
-        {/* <div
-          className="customerCTA"
-          onClick={() => console.log("todo - redirect")}
-        >
-          Learn more
-        </div> */}
         <div className="learnMoreCTA">
-          Learn about xyz {'\u2192'}
+          {cta} {'\u2192'}
         </div>
       </div>
       <img className="customerSectionImage" src={image} alt={title} />

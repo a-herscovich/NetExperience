@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;1,300&display=swap");
+.mduPage {
+    margin: 100px 80px;
+    display: flex;
+    flex-flow: column nowrap;
+    // align-items: center;
+}
+
+.pageHeading {
+    line-height: 0;
+
+    .title {
+        font-weight: 700;
+    }
+}
+
+.videoEmbed {
+    margin: 30px auto;
+
+}
+
+.helpText {
+    font-family: "Figtree", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}

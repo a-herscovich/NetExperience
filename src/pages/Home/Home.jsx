@@ -4,7 +4,6 @@ import {
   EmailInput,
   Slideshow,
   TwoPanelCustomerInfo,
-  // OpenWifiTestimonial,
   OpenWifiBenefit,
   Carousel
 } from "../../components";
@@ -32,22 +31,26 @@ const Home = () => {
         </div>
       </div>
       <div className="customerSection">
-        {/* <h1>Wifi for MDU, Hospitality & Education</h1> */}
         <TwoPanelCustomerInfo
           title="Multiple Dwelling Units (MDU)"
-          description="Tenant management platform and multiple passwords sign-in based on radius."
+          description="The NetExperience cloud management and controller platform incudes additional features specifically
+          designed to enable non-technical leasing agents and/or property managers to manage tenant Wi-Fi"
           image="/apartment2.png"
+          cta="See our cloud management platform"
         />
         <TwoPanelCustomerInfo
           title="Hospitality"
           description="External captive portal integrations support and guests connect automatically and securely to Wifi."
           image="/hotel1.png"
           reverse
+          cta="Manage your guests' connections"
         />
         <TwoPanelCustomerInfo
           title="Education"
-          description="School management platform with support for external capitve portal integrations, with outdoor Access Points."
+          description="WiFi6 and WiFi6E wall plate, ceiling mount and outdoor Access Points are available from multiple
+          manufacturers suitable for high density campus deployments, all managed within NetExperience's School Management Platform"
           image="/university1.png"
+          cta="Equip your students with Wi-Fi across campus"
         />
         <p className="customerSegmentHelperText">
           NetExperience serves multiple industries today, and is expanding
@@ -104,7 +107,7 @@ const Home = () => {
                 <path d="M8.5 5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z" />
               </svg>
             }
-            title="Compatible with multiple hardware providers"
+            title="Disaggregation - compatiblity with multiple hardware providers"
             description="For improved customer experience and supply chain resiliency, preventing vendor lock"
           />
           <OpenWifiBenefit
