@@ -26,6 +26,16 @@ const Header = () => {
             </NavDropdown>
             <Nav.Link href="#home">Education</Nav.Link>
             <Nav.Link href="#link">About Us</Nav.Link>
+            <NavDropdown title="Media & Events" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="/News">
+                In the News
+              </NavDropdown.Item>
+              <NavDropdown.Item href="">Press Releases</NavDropdown.Item>
+              <NavDropdown.Item href="">Events</NavDropdown.Item>
+              <NavDropdown.Item href="">Videos</NavDropdown.Item>
+              <NavDropdown.Item href="">Blog</NavDropdown.Item>
+              <NavDropdown.Item href="">Collateral</NavDropdown.Item>
+            </NavDropdown>
           </Nav>
           {/* portal login */}
           <Link to="">
