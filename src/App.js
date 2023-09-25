@@ -1,21 +1,26 @@
-import {
-  Route,
-  Routes,
-} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.scss";
-import { Layout, Home, MDUPage, HospitalityPage, Error404 } from "./pages";
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import {
+  Layout,
+  Home,
+  MDUPage,
+  HospitalityPage,
+  StudentHousing,
+  Error404,
+} from "./pages";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
     <Routes>
-    <Route path="/" element={<Layout />}>
-      <Route index element={<Home />} />
-      <Route path="/MDU" element={<MDUPage />} />
-      <Route path="/Hospitality" element={<HospitalityPage />} />
-      <Route path="*" element={<Error404 />} />
-    </Route>
-  </Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/MDU" element={<MDUPage />} />
+        <Route path="/Hospitality" element={<HospitalityPage />} />
+        <Route path="/StudentHousing" element={<StudentHousing />} />
+        <Route path="*" element={<Error404 />} />
+      </Route>
+    </Routes>
   );
 };
 

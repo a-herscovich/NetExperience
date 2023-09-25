@@ -32,8 +32,8 @@ const Slideshow = () => {
             src="/hotel_lobby.png"
             alt="hospitality"
           />
-          <span class="imageOverlay">
-            <span class="text">Hospitality</span>
+          <span className="imageOverlay">
+            <span className="text">OpenWifi is ideal for hotels with great performance at a low TCO</span>
           </span>
         </div>
 
@@ -43,15 +43,15 @@ const Slideshow = () => {
             src="/dashboard1.png"
             alt="dashboard"
           />
-          <span class="imageOverlay">
-            <span class="text">product</span>
+          <span className="imageOverlay">
+            <span className="text">Monitor your network traffic</span>
           </span>
         </div>
 
         <div className="imageContainer">
           <img className="slideshowImage" src="/desk_setup.png" alt="mdu" />
-          <span class="imageOverlay">
-            <span class="text">MDU</span>
+          <span className="imageOverlay">
+            <span className="text">Customers get dramatically improved Wi-Fi at low cost</span>
           </span>
         </div>
 
@@ -61,15 +61,15 @@ const Slideshow = () => {
             src="/dashboard4.png"
             alt="dashboard"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Determine which access points are online and serving clients</span>
           </span>
         </div>
 
         <div className="imageContainer">
           <img className="slideshowImage" src="/mdu_wfh.png" alt="mdu" />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Really fast, low latency Wi-Fi is what MDUs need today and forthe future, and we have it available today!</span>
           </span>
         </div>
 
@@ -79,15 +79,15 @@ const Slideshow = () => {
             src="/laptop_outside.png"
             alt="remote work"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Dense common areas and individual rooms are easily covered</span>
           </span>
         </div>
 
         <div className="imageContainer product">
           <img className="slideshowImage" src="/network1.png" alt="dashboard" />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Monitor the details of your access points for better insights into predicted performance</span>
           </span>
         </div>
 
@@ -99,8 +99,8 @@ const Slideshow = () => {
             src="/hotel_lobby.png"
             alt="hospitality"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">OpenWifi is ideal for hotels with great performance at a low TCO</span>
           </span>
         </div>
 
@@ -110,15 +110,15 @@ const Slideshow = () => {
             src="/dashboard1.png"
             alt="dashboard"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Monitor your network traffic</span>
           </span>
         </div>
 
         <div className="imageContainer">
           <img className="slideshowImage" src="/desk_setup.png" alt="mdu" />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Customers get dramatically improved Wi-Fi at low cost</span>
           </span>
         </div>
 
@@ -128,15 +128,15 @@ const Slideshow = () => {
             src="/dashboard4.png"
             alt="dashboard"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Determine which access points are online and serving clients</span>
           </span>
         </div>
 
         <div className="imageContainer">
           <img className="slideshowImage" src="/mdu_wfh.png" alt="mdu" />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Really fast, low latency Wi-Fi is what MDUs need today and forthe future, and we have it available today!</span>
           </span>
         </div>
 
@@ -146,15 +146,15 @@ const Slideshow = () => {
             src="/laptop_outside.png"
             alt="remote work"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Dense common areas and individual rooms are easily covered</span>
           </span>
         </div>
 
         <div className="imageContainer product">
           <img className="slideshowImage" src="/network1.png" alt="dashboard" />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Monitor the details of your access points for better insights into predicted performance</span>
           </span>
         </div>
       </div>
@@ -166,8 +166,8 @@ const Slideshow = () => {
             src="/dashboard3.png"
             alt="dashboard"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Understand which clients are connected to each Wi-Fi band</span>
           </span>
         </div>
         <div className="imageContainer">
@@ -176,8 +176,8 @@ const Slideshow = () => {
             src="/hospitality.png"
             alt="hospitality"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Text</span>
           </span>
         </div>
         <div className="imageContainer">
@@ -186,14 +186,14 @@ const Slideshow = () => {
             src="/uni_library.png"
             alt="education"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Dense college common areas are easily covered by OpenWifi using Wi-Fi6, 6E and soon Wi-Fi7</span>
           </span>
         </div>
         <div className="imageContainer">
           <img className="slideshowImage" src="/mdu_wfh2.png" alt="mdu" />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Outfoor Wi-Fi? No problem for NetExperience and OpenWifi</span>
           </span>
         </div>
         <div className="imageContainer product">
@@ -202,8 +202,8 @@ const Slideshow = () => {
             src="/dashboard2.png"
             alt="dashboard"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Real time alarms help with fast troubleshooting</span>
           </span>
         </div>
         <div className="imageContainer">
@@ -212,8 +212,8 @@ const Slideshow = () => {
             src="/uni_campus.png"
             alt="education"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Campus wide and student housing Wi-Fi, one of the highest volume users of OpenWifi today</span>
           </span>
         </div>
 
@@ -225,8 +225,8 @@ const Slideshow = () => {
             src="/dashboard3.png"
             alt="dashboard"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Understand which clients are connected to each Wi-Fi band</span>
           </span>
         </div>
         <div className="imageContainer">
@@ -235,8 +235,8 @@ const Slideshow = () => {
             src="/hospitality.png"
             alt="hospitality"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Text</span>
           </span>
         </div>
         <div className="imageContainer">
@@ -245,14 +245,14 @@ const Slideshow = () => {
             src="/uni_library.png"
             alt="education"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Dense college common areas are easily covered by OpenWifi using Wi-Fi6, 6E and soon Wi-Fi7</span>
           </span>
         </div>
         <div className="imageContainer">
           <img className="slideshowImage" src="/mdu_wfh2.png" alt="mdu" />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Outfoor Wi-Fi? No problem for NetExperience and OpenWifi</span>
           </span>
         </div>
         <div className="imageContainer product">
@@ -261,8 +261,8 @@ const Slideshow = () => {
             src="/dashboard2.png"
             alt="dashboard"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Real time alarms help with fast troubleshooting</span>
           </span>
         </div>
         <div className="imageContainer">
@@ -271,8 +271,8 @@ const Slideshow = () => {
             src="/uni_campus.png"
             alt="education"
           />
-          <span class="imageOverlay">
-            <span class="text">Text</span>
+          <span className="imageOverlay">
+            <span className="text">Campus wide and student housing Wi-Fi, one of the highest volume users of OpenWifi today</span>
           </span>
         </div>
       </div>

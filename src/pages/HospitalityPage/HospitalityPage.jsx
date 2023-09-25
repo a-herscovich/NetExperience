@@ -1,6 +1,7 @@
+import "./HospitalityPage.scss";
 const HospitalityPage = () => {
     return (
-        <div>
+        <div className="hospitalityPage">
             <h1>Hospitality</h1>
         </div>
     )

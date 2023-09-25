@@ -5,3 +5,4 @@ export { default as TwoPanelCustomerInfo } from "./TwoPanelCustomerInfo/TwoPanel
 export { default as OpenWifiTestimonial } from "./OpenWifiTestimonial/OpenWifiTestimonial";
 export { default as OpenWifiBenefit } from "./OpenWifiBenefit/OpenWifiBenefit";
 export { default as Carousel } from "./Carousel/Carousel";
+export { default as MDUBenefit } from "./MDUBenefit/MDUBenefit";

@@ -1,0 +1,21 @@
+.MDUBenefit {
+    width: 20vw;
+    height: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 4px 0 8px 0;
+}
+
+.icon {
+    margin-bottom: 10px;
+    &:hover {
+        color: rgb(124, 163, 218);
+        cursor: pointer;
+    }
+}

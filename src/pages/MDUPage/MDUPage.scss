@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;1,300&display=swap");
 .mduPage {
-    margin: 100px 80px;
+    padding: 100px 80px;
     display: flex;
     flex-flow: column nowrap;
     // align-items: center;
+    // background-color: rgb(211, 227, 215);
+    background: linear-gradient(180deg, rgb(199, 207, 214) 0%, rgb(233, 236, 239) 75%)
 }
 
 .pageHeading {
     line-height: 0;
+    color: #462159;
 
     .title {
         font-weight: 700;
@@ -23,4 +26,34 @@
     font-family: "Figtree", sans-serif;
     text-transform: uppercase;
     font-weight: 600;
+    // color: #462159;
+    color: #6c6282;
+}
+
+.statisticPanel {
+    position: relative;
+    left: -80px;
+    width: 100vw;
+    padding: 50px 0;
+    margin: 10px 0;
+    // background-color: #462159;  
+    background-color: #6c6282;
+
+   .stat, .statAuthor {
+       padding-left: 80px;
+       text-align: center;
+       color: rgb(233, 236, 239);
+   }
+   
+   .stat {
+       font-size: 24px;
+       font-weight: 600;
+   }
+}
+
+.MDUBenefits {
+    margin: 40px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
 }
